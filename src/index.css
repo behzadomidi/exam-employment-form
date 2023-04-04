@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Vazir";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Vazir.eot");
+  src: local("Vazir"), local("Vazir"),
+    url("./assets/fonts/Vazir.eot") format("eot"),
+    url("./assets/fonts/Vazir.ttf") format("ttf"),
+    url("./assets/fonts/Vazir-Thin.woff") format("woff"),
+    url("./assets/fonts/Vazir.woff2") format("woff2");
+}
+
+body {
+  margin: 0;
+  font-family: "Vazir";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.container {
+  color: red;
+}
